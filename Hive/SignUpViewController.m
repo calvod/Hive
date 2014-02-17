@@ -36,18 +36,19 @@
 }
 
 - (IBAction)signup:(id)sender {
-    NSString *username = [self.usernameField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    NSString *fullName = [self.fullNameField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    NSString *username = [self.userNameField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSString *password = [self.passwordField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSString *email = [self.emailField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSString *company = [self.companyField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSString *currentTitle = [self.currentTitleField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
-    if ([username length] == 0 || [password length] == 0 || [email length] == 0 || [company length] == 0 ||
-        [currentTitle length] == 0) {
+    if ([fullName length] == 0 || [username length] == 0 || [password length] == 0 || [email length] == 0 || [company length] == 0 || [currentTitle length] == 0) {
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"oops" message:@"make sure you enter all fields" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles: nil];
         [alertView show];
     } else {
         PFUser *newUser = [PFUser user];
+        newUser.fullName = fullName;
         newUser.username = username;
         newUser.password = password;
         newUser.email = email;
