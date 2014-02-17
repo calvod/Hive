@@ -19,6 +19,22 @@
 		F102946F18B17AFF004EEA61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F102945718B17AFF004EEA61 /* UIKit.framework */; };
 		F102947718B17AFF004EEA61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F102947518B17AFF004EEA61 /* InfoPlist.strings */; };
 		F102947918B17AFF004EEA61 /* HiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F102947818B17AFF004EEA61 /* HiveTests.m */; };
+		F1131DE818B1B69100F9F956 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1131DE618B1B69100F9F956 /* LoginViewController.m */; };
+		F1131DE918B1B69100F9F956 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1131DE718B1B69100F9F956 /* LoginViewController.xib */; };
+		F1131DEC18B1B96600F9F956 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1131DEA18B1B96600F9F956 /* FacebookSDK.framework */; };
+		F1131DED18B1B96600F9F956 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1131DEB18B1B96600F9F956 /* Parse.framework */; };
+		F1131DF118B1CD2F00F9F956 /* logInButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F1131DEF18B1CD2F00F9F956 /* logInButton.png */; };
+		F1131DF218B1CD2F00F9F956 /* signUpButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F1131DF018B1CD2F00F9F956 /* signUpButton.png */; };
+		F1131DF618B1D13200F9F956 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1131DF418B1D13200F9F956 /* SignUpViewController.m */; };
+		F1131DF718B1D13200F9F956 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1131DF518B1D13200F9F956 /* SignUpViewController.xib */; };
+		F1131DFB18B1D56800F9F956 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1131DF918B1D56800F9F956 /* ProfileViewController.m */; };
+		F1131DFC18B1D56800F9F956 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1131DFA18B1D56800F9F956 /* ProfileViewController.xib */; };
+		F1131E0018B1E67900F9F956 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1131DFE18B1E67900F9F956 /* AnswerViewController.m */; };
+		F1131E0118B1E67900F9F956 /* AnswerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1131DFF18B1E67900F9F956 /* AnswerViewController.xib */; };
+		F1131E0518B1E68300F9F956 /* AskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1131E0318B1E68300F9F956 /* AskViewController.m */; };
+		F1131E0618B1E68300F9F956 /* AskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1131E0418B1E68300F9F956 /* AskViewController.xib */; };
+		F1131E0A18B1E72500F9F956 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1131E0818B1E72500F9F956 /* EditProfileViewController.m */; };
+		F1131E0B18B1E72500F9F956 /* EditProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1131E0918B1E72500F9F956 /* EditProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +64,28 @@
 		F102947418B17AFF004EEA61 /* HiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiveTests-Info.plist"; sourceTree = "<group>"; };
 		F102947618B17AFF004EEA61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F102947818B17AFF004EEA61 /* HiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiveTests.m; sourceTree = "<group>"; };
+		F1131DE518B1B69100F9F956 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F1131DE618B1B69100F9F956 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F1131DE718B1B69100F9F956 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F1131DEA18B1B96600F9F956 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = Hive/FacebookSDK.framework; sourceTree = "<group>"; };
+		F1131DEB18B1B96600F9F956 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Hive/Parse.framework; sourceTree = "<group>"; };
+		F1131DEF18B1CD2F00F9F956 /* logInButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logInButton.png; sourceTree = "<group>"; };
+		F1131DF018B1CD2F00F9F956 /* signUpButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signUpButton.png; sourceTree = "<group>"; };
+		F1131DF318B1D13200F9F956 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		F1131DF418B1D13200F9F956 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		F1131DF518B1D13200F9F956 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		F1131DF818B1D56800F9F956 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F1131DF918B1D56800F9F956 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F1131DFA18B1D56800F9F956 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		F1131DFD18B1E67900F9F956 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		F1131DFE18B1E67900F9F956 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
+		F1131DFF18B1E67900F9F956 /* AnswerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnswerViewController.xib; sourceTree = "<group>"; };
+		F1131E0218B1E68300F9F956 /* AskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskViewController.h; sourceTree = "<group>"; };
+		F1131E0318B1E68300F9F956 /* AskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskViewController.m; sourceTree = "<group>"; };
+		F1131E0418B1E68300F9F956 /* AskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AskViewController.xib; sourceTree = "<group>"; };
+		F1131E0718B1E72500F9F956 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		F1131E0818B1E72500F9F956 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		F1131E0918B1E72500F9F956 /* EditProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +94,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F102945618B17AFF004EEA61 /* CoreGraphics.framework in Frameworks */,
+				F1131DEC18B1B96600F9F956 /* FacebookSDK.framework in Frameworks */,
 				F102945818B17AFF004EEA61 /* UIKit.framework in Frameworks */,
 				F102945418B17AFF004EEA61 /* Foundation.framework in Frameworks */,
+				F1131DED18B1B96600F9F956 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +136,8 @@
 		F102945218B17AFF004EEA61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1131DEA18B1B96600F9F956 /* FacebookSDK.framework */,
+				F1131DEB18B1B96600F9F956 /* Parse.framework */,
 				F102945318B17AFF004EEA61 /* Foundation.framework */,
 				F102945518B17AFF004EEA61 /* CoreGraphics.framework */,
 				F102945718B17AFF004EEA61 /* UIKit.framework */,
@@ -107,10 +149,29 @@
 		F102945918B17AFF004EEA61 /* Hive */ = {
 			isa = PBXGroup;
 			children = (
+				F1131DEE18B1CD2400F9F956 /* Pics */,
+				F102946518B17AFF004EEA61 /* Images.xcassets */,
 				F102946218B17AFF004EEA61 /* AppDelegate.h */,
 				F102946318B17AFF004EEA61 /* AppDelegate.m */,
-				F102946518B17AFF004EEA61 /* Images.xcassets */,
 				F102945A18B17AFF004EEA61 /* Supporting Files */,
+				F1131DF818B1D56800F9F956 /* ProfileViewController.h */,
+				F1131DF918B1D56800F9F956 /* ProfileViewController.m */,
+				F1131DFA18B1D56800F9F956 /* ProfileViewController.xib */,
+				F1131E0718B1E72500F9F956 /* EditProfileViewController.h */,
+				F1131E0818B1E72500F9F956 /* EditProfileViewController.m */,
+				F1131E0918B1E72500F9F956 /* EditProfileViewController.xib */,
+				F1131DFD18B1E67900F9F956 /* AnswerViewController.h */,
+				F1131DFE18B1E67900F9F956 /* AnswerViewController.m */,
+				F1131DFF18B1E67900F9F956 /* AnswerViewController.xib */,
+				F1131E0218B1E68300F9F956 /* AskViewController.h */,
+				F1131E0318B1E68300F9F956 /* AskViewController.m */,
+				F1131E0418B1E68300F9F956 /* AskViewController.xib */,
+				F1131DE518B1B69100F9F956 /* LoginViewController.h */,
+				F1131DE618B1B69100F9F956 /* LoginViewController.m */,
+				F1131DE718B1B69100F9F956 /* LoginViewController.xib */,
+				F1131DF318B1D13200F9F956 /* SignUpViewController.h */,
+				F1131DF418B1D13200F9F956 /* SignUpViewController.m */,
+				F1131DF518B1D13200F9F956 /* SignUpViewController.xib */,
 			);
 			path = Hive;
 			sourceTree = "<group>";
@@ -142,6 +203,15 @@
 				F102947518B17AFF004EEA61 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1131DEE18B1CD2400F9F956 /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				F1131DEF18B1CD2F00F9F956 /* logInButton.png */,
+				F1131DF018B1CD2F00F9F956 /* signUpButton.png */,
+			);
+			name = Pics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +289,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1131E0118B1E67900F9F956 /* AnswerViewController.xib in Resources */,
+				F1131DFC18B1D56800F9F956 /* ProfileViewController.xib in Resources */,
+				F1131E0B18B1E72500F9F956 /* EditProfileViewController.xib in Resources */,
 				F102945E18B17AFF004EEA61 /* InfoPlist.strings in Resources */,
+				F1131DF218B1CD2F00F9F956 /* signUpButton.png in Resources */,
 				F102946618B17AFF004EEA61 /* Images.xcassets in Resources */,
+				F1131DE918B1B69100F9F956 /* LoginViewController.xib in Resources */,
+				F1131DF718B1D13200F9F956 /* SignUpViewController.xib in Resources */,
+				F1131DF118B1CD2F00F9F956 /* logInButton.png in Resources */,
+				F1131E0618B1E68300F9F956 /* AskViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +319,12 @@
 			files = (
 				F102946418B17AFF004EEA61 /* AppDelegate.m in Sources */,
 				F102946018B17AFF004EEA61 /* main.m in Sources */,
+				F1131E0518B1E68300F9F956 /* AskViewController.m in Sources */,
+				F1131DF618B1D13200F9F956 /* SignUpViewController.m in Sources */,
+				F1131E0A18B1E72500F9F956 /* EditProfileViewController.m in Sources */,
+				F1131DE818B1B69100F9F956 /* LoginViewController.m in Sources */,
+				F1131E0018B1E67900F9F956 /* AnswerViewController.m in Sources */,
+				F1131DFB18B1D56800F9F956 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +443,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Diego/Desktop/Hive/Hive,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hive/Hive-Prefix.pch";
 				INFOPLIST_FILE = "Hive/Hive-Info.plist";
@@ -372,6 +460,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Diego/Desktop/Hive/Hive,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hive/Hive-Prefix.pch";
 				INFOPLIST_FILE = "Hive/Hive-Info.plist";
@@ -441,6 +533,7 @@
 				F102947E18B17AFF004EEA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F102947F18B17AFF004EEA61 /* Build configuration list for PBXNativeTarget "HiveTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +542,7 @@
 				F102948118B17AFF004EEA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

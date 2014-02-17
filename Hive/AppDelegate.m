@@ -7,16 +7,35 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
+#import "ProfileViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //PARSE
+    //KEYS
+    
+    
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ProfileViewController alloc] init]];
+    
+    
+    
+    
+    //Setup Navigation Bar
+    //====================
+    //Set background of bar
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:255.0f/255.0f green: 75.0f/255.0f blue:50.0f/255.0f alpha:1.0f]];
+    //Set text color
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:UITextAttributeTextColor]];
+    //set back button color
+    [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], UITextAttributeTextColor,nil] forState:UIControlStateNormal];
+    //set back button arrow color
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
