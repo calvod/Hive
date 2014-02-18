@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
-#import <FacebookSDK/FacebookSDK.h>
+#import "ProfileViewController.h"
+#import "EditProfileViewController.h"
+#import "AnswerViewController.h"
+#import "AskViewController.h"
+#import "LoginViewController.h"
+#import "SignUpViewController.h"
 
 @interface ProfileViewController : UIViewController
 

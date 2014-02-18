@@ -35,4 +35,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)askQuestion
+{
+    // Create our Installation query
+    PFQuery *pushQuery = [PFInstallation query];
+    [pushQuery whereKey:@"deviceType" equalTo:@"ios"];
+    
+    // Send push notification to query
+    [PFPush sendPushMessageToQueryInBackground:pushQuery
+                                   withMessage:@"Hello World!"];
+}
+
 @end

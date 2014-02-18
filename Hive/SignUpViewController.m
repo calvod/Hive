@@ -36,25 +36,24 @@
 }
 
 - (IBAction)signup:(id)sender {
-    NSString *fullName = [self.fullNameField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    NSString *fullname = [self.fullNameField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSString *username = [self.userNameField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSString *password = [self.passwordField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSString *email = [self.emailField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     NSString *company = [self.companyField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    NSString *currentTitle = [self.currentTitleField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    NSString *currenttitle = [self.currentTitleField.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
-    if ([fullName length] == 0 || [username length] == 0 || [password length] == 0 || [email length] == 0 || [company length] == 0 || [currentTitle length] == 0) {
+    if ([fullname length] == 0 || [username length] == 0 || [password length] == 0 || [email length] == 0 || [company length] == 0 || [currenttitle length] == 0) {
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"oops" message:@"make sure you enter all fields" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles: nil];
         [alertView show];
     } else {
         PFUser *newUser = [PFUser user];
-        newUser.fullName = fullName;
-        newUser.username = username;
-        newUser.password = password;
-        newUser.email = email;
-        newUser.company = company;
-        newUser.currentTitle = currentTitle;
-        
+        [newUser setObject:fullname forKey:@"fullname"];
+        [newUser setObject:username forKey:@"username"];
+        [newUser setObject:password forKey:@"password"];
+        [newUser setObject:email forKey:@"email"];
+        [newUser setObject:company forKey:@"company"];
+        [newUser setObject:currenttitle forKey:@"currenttitle"];
         
         [newUser signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             if (error) {

@@ -7,9 +7,6 @@
 //
 
 #import "ProfileViewController.h"
-#import "EditProfileViewController.h"
-#import "AnswerViewController.h"
-#import "AskViewController.h"
 
 @interface ProfileViewController ()
 
@@ -47,7 +44,7 @@
 }
 
 -(IBAction)logout:(id)sender {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"log out" message:[NSString stringWithFormat:@"are you sure?"] delegate:nil cancelButtonTitle:@"cancel" otherButtonTitles:@"log out"];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"log out" message:[NSString stringWithFormat:@"are you sure?"] delegate:nil cancelButtonTitle:@"cancel" otherButtonTitles:@"log out", nil];
     [alert show];
     //if they hit cancel, cancel it,
     //if they hit log:
