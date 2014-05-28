@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12AEAB9193587630081ACD5 /* SignUpViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AEAB8193587630081ACD5 /* SignUpViewController2.m */; };
 		F12D15FA193268A600E655D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15F9193268A600E655D0 /* Foundation.framework */; };
 		F12D15FC193268A600E655D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15FB193268A600E655D0 /* CoreGraphics.framework */; };
 		F12D15FE193268A600E655D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15FD193268A600E655D0 /* UIKit.framework */; };
@@ -24,7 +25,7 @@
 		F12D163319327E1900E655D0 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D163219327E1900E655D0 /* ProfileViewController.m */; };
 		F12D16361932825900E655D0 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D16351932825900E655D0 /* EditViewController.m */; };
 		F19018221933FF2400193A5D /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19018211933FF2400193A5D /* LogInViewController.m */; };
-		F19018251933FF2F00193A5D /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19018241933FF2F00193A5D /* SignUpViewController.m */; };
+		F19018251933FF2F00193A5D /* SignUpViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = F19018241933FF2F00193A5D /* SignUpViewController1.m */; };
 		F19018281934208700193A5D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19018271934208700193A5D /* HomeViewController.m */; };
 		F190182B193422D200193A5D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1901829193420E100193A5D /* Parse.framework */; };
 		F19018321934237400193A5D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190182E1934236800193A5D /* AudioToolbox.framework */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F12AEAB7193587630081ACD5 /* SignUpViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController2.h; sourceTree = "<group>"; };
+		F12AEAB8193587630081ACD5 /* SignUpViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController2.m; sourceTree = "<group>"; };
 		F12D15F6193268A600E655D0 /* FreshHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshHive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12D15F9193268A600E655D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F12D15FB193268A600E655D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,8 +76,8 @@
 		F12D16351932825900E655D0 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 		F19018201933FF2400193A5D /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		F19018211933FF2400193A5D /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
-		F19018231933FF2F00193A5D /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
-		F19018241933FF2F00193A5D /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		F19018231933FF2F00193A5D /* SignUpViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController1.h; sourceTree = "<group>"; };
+		F19018241933FF2F00193A5D /* SignUpViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController1.m; sourceTree = "<group>"; };
 		F19018261934208700193A5D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		F19018271934208700193A5D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		F1901829193420E100193A5D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = FreshHive/Parse.framework; sourceTree = "<group>"; };
@@ -174,8 +177,10 @@
 				F19018271934208700193A5D /* HomeViewController.m */,
 				F19018201933FF2400193A5D /* LogInViewController.h */,
 				F19018211933FF2400193A5D /* LogInViewController.m */,
-				F19018231933FF2F00193A5D /* SignUpViewController.h */,
-				F19018241933FF2F00193A5D /* SignUpViewController.m */,
+				F19018231933FF2F00193A5D /* SignUpViewController1.h */,
+				F19018241933FF2F00193A5D /* SignUpViewController1.m */,
+				F12AEAB7193587630081ACD5 /* SignUpViewController2.h */,
+				F12AEAB8193587630081ACD5 /* SignUpViewController2.m */,
 				F12D163119327E1900E655D0 /* ProfileViewController.h */,
 				F12D163219327E1900E655D0 /* ProfileViewController.m */,
 				F12D16341932825900E655D0 /* EditViewController.h */,
@@ -317,9 +322,10 @@
 				F12D1613193268A600E655D0 /* SecondViewController.m in Sources */,
 				F12D160A193268A600E655D0 /* AppDelegate.m in Sources */,
 				F19018221933FF2400193A5D /* LogInViewController.m in Sources */,
+				F12AEAB9193587630081ACD5 /* SignUpViewController2.m in Sources */,
 				F12D1606193268A600E655D0 /* main.m in Sources */,
 				F12D163319327E1900E655D0 /* ProfileViewController.m in Sources */,
-				F19018251933FF2F00193A5D /* SignUpViewController.m in Sources */,
+				F19018251933FF2F00193A5D /* SignUpViewController1.m in Sources */,
 				F12D16361932825900E655D0 /* EditViewController.m in Sources */,
 				F19018281934208700193A5D /* HomeViewController.m in Sources */,
 			);
