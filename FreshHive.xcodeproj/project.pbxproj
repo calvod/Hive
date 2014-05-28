@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F12D15FA193268A600E655D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15F9193268A600E655D0 /* Foundation.framework */; };
+		F12D15FC193268A600E655D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15FB193268A600E655D0 /* CoreGraphics.framework */; };
+		F12D15FE193268A600E655D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15FD193268A600E655D0 /* UIKit.framework */; };
+		F12D1604193268A600E655D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F12D1602193268A600E655D0 /* InfoPlist.strings */; };
+		F12D1606193268A600E655D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1605193268A600E655D0 /* main.m */; };
+		F12D160A193268A600E655D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1609193268A600E655D0 /* AppDelegate.m */; };
+		F12D160D193268A600E655D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12D160B193268A600E655D0 /* Main.storyboard */; };
+		F12D1613193268A600E655D0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1612193268A600E655D0 /* SecondViewController.m */; };
+		F12D1615193268A600E655D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12D1614193268A600E655D0 /* Images.xcassets */; };
+		F12D161C193268A600E655D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D161B193268A600E655D0 /* XCTest.framework */; };
+		F12D161D193268A600E655D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15F9193268A600E655D0 /* Foundation.framework */; };
+		F12D161E193268A600E655D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15FD193268A600E655D0 /* UIKit.framework */; };
+		F12D1626193268A600E655D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F12D1624193268A600E655D0 /* InfoPlist.strings */; };
+		F12D1628193268A600E655D0 /* FreshHiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1627193268A600E655D0 /* FreshHiveTests.m */; };
+		F12D163319327E1900E655D0 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D163219327E1900E655D0 /* ProfileViewController.m */; };
+		F12D16361932825900E655D0 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D16351932825900E655D0 /* EditViewController.m */; };
+		F19018221933FF2400193A5D /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19018211933FF2400193A5D /* LogInViewController.m */; };
+		F19018251933FF2F00193A5D /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19018241933FF2F00193A5D /* SignUpViewController.m */; };
+		F19018281934208700193A5D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19018271934208700193A5D /* HomeViewController.m */; };
+		F190182B193422D200193A5D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1901829193420E100193A5D /* Parse.framework */; };
+		F19018321934237400193A5D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190182E1934236800193A5D /* AudioToolbox.framework */; };
+		F19018341934237B00193A5D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19018331934237B00193A5D /* CFNetwork.framework */; };
+		F19018361934238500193A5D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19018351934238500193A5D /* CoreLocation.framework */; };
+		F19018381934239700193A5D /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F19018371934239700193A5D /* libz.1.1.3.dylib */; };
+		F190183A193423A200193A5D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1901839193423A200193A5D /* MobileCoreServices.framework */; };
+		F190183C193423D100193A5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190183B193423D100193A5D /* QuartzCore.framework */; };
+		F190183E193423DE00193A5D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190183D193423DE00193A5D /* Security.framework */; };
+		F1901840193423E600193A5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190183F193423E600193A5D /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F12D161F193268A600E655D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12D15EE193268A600E655D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12D15F5193268A600E655D0;
+			remoteInfo = FreshHive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F12D15F6193268A600E655D0 /* FreshHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshHive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12D15F9193268A600E655D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F12D15FB193268A600E655D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F12D15FD193268A600E655D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F12D1601193268A600E655D0 /* FreshHive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreshHive-Info.plist"; sourceTree = "<group>"; };
+		F12D1603193268A600E655D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F12D1605193268A600E655D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F12D1607193268A600E655D0 /* FreshHive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FreshHive-Prefix.pch"; sourceTree = "<group>"; };
+		F12D1608193268A600E655D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F12D1609193268A600E655D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F12D160C193268A600E655D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12D1611193268A600E655D0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F12D1612193268A600E655D0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F12D1614193268A600E655D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F12D161A193268A600E655D0 /* FreshHiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshHiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12D161B193268A600E655D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F12D1623193268A600E655D0 /* FreshHiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreshHiveTests-Info.plist"; sourceTree = "<group>"; };
+		F12D1625193268A600E655D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F12D1627193268A600E655D0 /* FreshHiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreshHiveTests.m; sourceTree = "<group>"; };
+		F12D163119327E1900E655D0 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F12D163219327E1900E655D0 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F12D16341932825900E655D0 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		F12D16351932825900E655D0 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		F19018201933FF2400193A5D /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		F19018211933FF2400193A5D /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		F19018231933FF2F00193A5D /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		F19018241933FF2F00193A5D /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		F19018261934208700193A5D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F19018271934208700193A5D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F1901829193420E100193A5D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = FreshHive/Parse.framework; sourceTree = "<group>"; };
+		F190182C1934236800193A5D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F190182D1934236800193A5D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F190182E1934236800193A5D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F19018331934237B00193A5D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F19018351934238500193A5D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F19018371934239700193A5D /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		F1901839193423A200193A5D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F190183B193423D100193A5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F190183D193423DE00193A5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F190183F193423E600193A5D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12D15F3193268A600E655D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1901840193423E600193A5D /* SystemConfiguration.framework in Frameworks */,
+				F190183E193423DE00193A5D /* Security.framework in Frameworks */,
+				F190183C193423D100193A5D /* QuartzCore.framework in Frameworks */,
+				F190183A193423A200193A5D /* MobileCoreServices.framework in Frameworks */,
+				F19018381934239700193A5D /* libz.1.1.3.dylib in Frameworks */,
+				F19018361934238500193A5D /* CoreLocation.framework in Frameworks */,
+				F12D15FC193268A600E655D0 /* CoreGraphics.framework in Frameworks */,
+				F19018341934237B00193A5D /* CFNetwork.framework in Frameworks */,
+				F19018321934237400193A5D /* AudioToolbox.framework in Frameworks */,
+				F190182B193422D200193A5D /* Parse.framework in Frameworks */,
+				F12D15FE193268A600E655D0 /* UIKit.framework in Frameworks */,
+				F12D15FA193268A600E655D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12D1617193268A600E655D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12D161C193268A600E655D0 /* XCTest.framework in Frameworks */,
+				F12D161E193268A600E655D0 /* UIKit.framework in Frameworks */,
+				F12D161D193268A600E655D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F12D15ED193268A600E655D0 = {
+			isa = PBXGroup;
+			children = (
+				F12D15FF193268A600E655D0 /* FreshHive */,
+				F12D1621193268A600E655D0 /* FreshHiveTests */,
+				F12D15F8193268A600E655D0 /* Frameworks */,
+				F12D15F7193268A600E655D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F12D15F7193268A600E655D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12D15F6193268A600E655D0 /* FreshHive.app */,
+				F12D161A193268A600E655D0 /* FreshHiveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12D15F8193268A600E655D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F190183F193423E600193A5D /* SystemConfiguration.framework */,
+				F190183D193423DE00193A5D /* Security.framework */,
+				F190183B193423D100193A5D /* QuartzCore.framework */,
+				F1901839193423A200193A5D /* MobileCoreServices.framework */,
+				F19018371934239700193A5D /* libz.1.1.3.dylib */,
+				F19018351934238500193A5D /* CoreLocation.framework */,
+				F19018331934237B00193A5D /* CFNetwork.framework */,
+				F190182C1934236800193A5D /* AdSupport.framework */,
+				F190182D1934236800193A5D /* AssetsLibrary.framework */,
+				F190182E1934236800193A5D /* AudioToolbox.framework */,
+				F1901829193420E100193A5D /* Parse.framework */,
+				F12D15F9193268A600E655D0 /* Foundation.framework */,
+				F12D15FB193268A600E655D0 /* CoreGraphics.framework */,
+				F12D15FD193268A600E655D0 /* UIKit.framework */,
+				F12D161B193268A600E655D0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F12D15FF193268A600E655D0 /* FreshHive */ = {
+			isa = PBXGroup;
+			children = (
+				F12D1608193268A600E655D0 /* AppDelegate.h */,
+				F12D1609193268A600E655D0 /* AppDelegate.m */,
+				F12D160B193268A600E655D0 /* Main.storyboard */,
+				F19018261934208700193A5D /* HomeViewController.h */,
+				F19018271934208700193A5D /* HomeViewController.m */,
+				F19018201933FF2400193A5D /* LogInViewController.h */,
+				F19018211933FF2400193A5D /* LogInViewController.m */,
+				F19018231933FF2F00193A5D /* SignUpViewController.h */,
+				F19018241933FF2F00193A5D /* SignUpViewController.m */,
+				F12D163119327E1900E655D0 /* ProfileViewController.h */,
+				F12D163219327E1900E655D0 /* ProfileViewController.m */,
+				F12D16341932825900E655D0 /* EditViewController.h */,
+				F12D16351932825900E655D0 /* EditViewController.m */,
+				F12D1611193268A600E655D0 /* SecondViewController.h */,
+				F12D1612193268A600E655D0 /* SecondViewController.m */,
+				F12D1614193268A600E655D0 /* Images.xcassets */,
+				F12D1600193268A600E655D0 /* Supporting Files */,
+			);
+			path = FreshHive;
+			sourceTree = "<group>";
+		};
+		F12D1600193268A600E655D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F12D1601193268A600E655D0 /* FreshHive-Info.plist */,
+				F12D1602193268A600E655D0 /* InfoPlist.strings */,
+				F12D1605193268A600E655D0 /* main.m */,
+				F12D1607193268A600E655D0 /* FreshHive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F12D1621193268A600E655D0 /* FreshHiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				F12D1627193268A600E655D0 /* FreshHiveTests.m */,
+				F12D1622193268A600E655D0 /* Supporting Files */,
+			);
+			path = FreshHiveTests;
+			sourceTree = "<group>";
+		};
+		F12D1622193268A600E655D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F12D1623193268A600E655D0 /* FreshHiveTests-Info.plist */,
+				F12D1624193268A600E655D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12D15F5193268A600E655D0 /* FreshHive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12D162B193268A600E655D0 /* Build configuration list for PBXNativeTarget "FreshHive" */;
+			buildPhases = (
+				F12D15F2193268A600E655D0 /* Sources */,
+				F12D15F3193268A600E655D0 /* Frameworks */,
+				F12D15F4193268A600E655D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreshHive;
+			productName = FreshHive;
+			productReference = F12D15F6193268A600E655D0 /* FreshHive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F12D1619193268A600E655D0 /* FreshHiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12D162E193268A600E655D0 /* Build configuration list for PBXNativeTarget "FreshHiveTests" */;
+			buildPhases = (
+				F12D1616193268A600E655D0 /* Sources */,
+				F12D1617193268A600E655D0 /* Frameworks */,
+				F12D1618193268A600E655D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12D1620193268A600E655D0 /* PBXTargetDependency */,
+			);
+			name = FreshHiveTests;
+			productName = FreshHiveTests;
+			productReference = F12D161A193268A600E655D0 /* FreshHiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12D15EE193268A600E655D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Diego Calvo";
+				TargetAttributes = {
+					F12D1619193268A600E655D0 = {
+						TestTargetID = F12D15F5193268A600E655D0;
+					};
+				};
+			};
+			buildConfigurationList = F12D15F1193268A600E655D0 /* Build configuration list for PBXProject "FreshHive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12D15ED193268A600E655D0;
+			productRefGroup = F12D15F7193268A600E655D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12D15F5193268A600E655D0 /* FreshHive */,
+				F12D1619193268A600E655D0 /* FreshHiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12D15F4193268A600E655D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12D1615193268A600E655D0 /* Images.xcassets in Resources */,
+				F12D1604193268A600E655D0 /* InfoPlist.strings in Resources */,
+				F12D160D193268A600E655D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12D1618193268A600E655D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12D1626193268A600E655D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12D15F2193268A600E655D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12D1613193268A600E655D0 /* SecondViewController.m in Sources */,
+				F12D160A193268A600E655D0 /* AppDelegate.m in Sources */,
+				F19018221933FF2400193A5D /* LogInViewController.m in Sources */,
+				F12D1606193268A600E655D0 /* main.m in Sources */,
+				F12D163319327E1900E655D0 /* ProfileViewController.m in Sources */,
+				F19018251933FF2F00193A5D /* SignUpViewController.m in Sources */,
+				F12D16361932825900E655D0 /* EditViewController.m in Sources */,
+				F19018281934208700193A5D /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12D1616193268A600E655D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12D1628193268A600E655D0 /* FreshHiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F12D1620193268A600E655D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12D15F5193268A600E655D0 /* FreshHive */;
+			targetProxy = F12D161F193268A600E655D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F12D1602193268A600E655D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12D1603193268A600E655D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F12D160B193268A600E655D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12D160C193268A600E655D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F12D1624193268A600E655D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12D1625193268A600E655D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12D1629193268A600E655D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F12D162A193268A600E655D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F12D162C193268A600E655D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FreshHive",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreshHive/FreshHive-Prefix.pch";
+				INFOPLIST_FILE = "FreshHive/FreshHive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F12D162D193268A600E655D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FreshHive",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreshHive/FreshHive-Prefix.pch";
+				INFOPLIST_FILE = "FreshHive/FreshHive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F12D162F193268A600E655D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FreshHive.app/FreshHive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreshHive/FreshHive-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FreshHiveTests/FreshHiveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F12D1630193268A600E655D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FreshHive.app/FreshHive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreshHive/FreshHive-Prefix.pch";
+				INFOPLIST_FILE = "FreshHiveTests/FreshHiveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12D15F1193268A600E655D0 /* Build configuration list for PBXProject "FreshHive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12D1629193268A600E655D0 /* Debug */,
+				F12D162A193268A600E655D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12D162B193268A600E655D0 /* Build configuration list for PBXNativeTarget "FreshHive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12D162C193268A600E655D0 /* Debug */,
+				F12D162D193268A600E655D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12D162E193268A600E655D0 /* Build configuration list for PBXNativeTarget "FreshHiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12D162F193268A600E655D0 /* Debug */,
+				F12D1630193268A600E655D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F12D15EE193268A600E655D0 /* Project object */;
+}
