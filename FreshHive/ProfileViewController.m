@@ -32,6 +32,8 @@
     self.profilePic.layer.cornerRadius = self.profilePic.frame.size.height /2;
     self.profilePic.layer.masksToBounds = YES;
     self.profilePic.layer.borderWidth = 0;
+    
+
 }
 
 - (void)didReceiveMemoryWarning

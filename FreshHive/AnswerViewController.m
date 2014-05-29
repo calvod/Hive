@@ -39,6 +39,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)tableView: (UITableView*)tableView
+  willDisplayCell: (UITableViewCell*)cell
+forRowAtIndexPath: (NSIndexPath*)indexPath
+{
+    
+    [cell setBackgroundColor:[UIColor colorWithRed: 41.0/255.0 green: 171.0/255.0 blue: 225.0/255.0 alpha: 1.0]];
+    
+}
+
 /*
 #pragma mark - Navigation
 

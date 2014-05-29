@@ -31,7 +31,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    questions  = [NSMutableArray arrayWithObjects:@"hey", @"ho", @"let's", @"go", nil];
+    questions  = [NSMutableArray arrayWithObjects:@"Regarding Pivoting: when should we change personnel too?", @"Production issue with Order #peccc29", @"Why does the quarterly report claim t-shirts as equity?", @"Sales pitch not working for a certain county", @"How does Superman shave?", nil];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -66,6 +66,16 @@
 }
 
 
+
+#pragma mark UITableViewDelegate
+- (void)tableView: (UITableView*)tableView
+  willDisplayCell: (UITableViewCell*)cell
+forRowAtIndexPath: (NSIndexPath*)indexPath
+{
+
+    [cell setBackgroundColor:[UIColor colorWithRed: 41.0/255.0 green: 171.0/255.0 blue: 225.0/255.0 alpha: 1.0]];
+
+}
 
 
 
