@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F12AEAB9193587630081ACD5 /* SignUpViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AEAB8193587630081ACD5 /* SignUpViewController2.m */; };
+		F12AEABC1936B6BD0081ACD5 /* AskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AEABB1936B6BD0081ACD5 /* AskViewController.m */; };
+		F12AEABF1936BD950081ACD5 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AEABE1936BD950081ACD5 /* AnswerViewController.m */; };
+		F12AEAC21936BF0C0081ACD5 /* MyQsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AEAC11936BF0C0081ACD5 /* MyQsViewController.m */; };
 		F12D15FA193268A600E655D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15F9193268A600E655D0 /* Foundation.framework */; };
 		F12D15FC193268A600E655D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15FB193268A600E655D0 /* CoreGraphics.framework */; };
 		F12D15FE193268A600E655D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15FD193268A600E655D0 /* UIKit.framework */; };
@@ -15,7 +18,6 @@
 		F12D1606193268A600E655D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1605193268A600E655D0 /* main.m */; };
 		F12D160A193268A600E655D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1609193268A600E655D0 /* AppDelegate.m */; };
 		F12D160D193268A600E655D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12D160B193268A600E655D0 /* Main.storyboard */; };
-		F12D1613193268A600E655D0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D1612193268A600E655D0 /* SecondViewController.m */; };
 		F12D1615193268A600E655D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12D1614193268A600E655D0 /* Images.xcassets */; };
 		F12D161C193268A600E655D0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D161B193268A600E655D0 /* XCTest.framework */; };
 		F12D161D193268A600E655D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15F9193268A600E655D0 /* Foundation.framework */; };
@@ -51,6 +53,12 @@
 /* Begin PBXFileReference section */
 		F12AEAB7193587630081ACD5 /* SignUpViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController2.h; sourceTree = "<group>"; };
 		F12AEAB8193587630081ACD5 /* SignUpViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController2.m; sourceTree = "<group>"; };
+		F12AEABA1936B6BD0081ACD5 /* AskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskViewController.h; sourceTree = "<group>"; };
+		F12AEABB1936B6BD0081ACD5 /* AskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskViewController.m; sourceTree = "<group>"; };
+		F12AEABD1936BD950081ACD5 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		F12AEABE1936BD950081ACD5 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
+		F12AEAC01936BF0C0081ACD5 /* MyQsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQsViewController.h; sourceTree = "<group>"; };
+		F12AEAC11936BF0C0081ACD5 /* MyQsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQsViewController.m; sourceTree = "<group>"; };
 		F12D15F6193268A600E655D0 /* FreshHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshHive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12D15F9193268A600E655D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F12D15FB193268A600E655D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,8 +70,6 @@
 		F12D1608193268A600E655D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F12D1609193268A600E655D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F12D160C193268A600E655D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F12D1611193268A600E655D0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		F12D1612193268A600E655D0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F12D1614193268A600E655D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F12D161A193268A600E655D0 /* FreshHiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreshHiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12D161B193268A600E655D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -185,8 +191,12 @@
 				F12D163219327E1900E655D0 /* ProfileViewController.m */,
 				F12D16341932825900E655D0 /* EditViewController.h */,
 				F12D16351932825900E655D0 /* EditViewController.m */,
-				F12D1611193268A600E655D0 /* SecondViewController.h */,
-				F12D1612193268A600E655D0 /* SecondViewController.m */,
+				F12AEABA1936B6BD0081ACD5 /* AskViewController.h */,
+				F12AEABB1936B6BD0081ACD5 /* AskViewController.m */,
+				F12AEABD1936BD950081ACD5 /* AnswerViewController.h */,
+				F12AEABE1936BD950081ACD5 /* AnswerViewController.m */,
+				F12AEAC01936BF0C0081ACD5 /* MyQsViewController.h */,
+				F12AEAC11936BF0C0081ACD5 /* MyQsViewController.m */,
 				F12D1614193268A600E655D0 /* Images.xcassets */,
 				F12D1600193268A600E655D0 /* Supporting Files */,
 			);
@@ -319,15 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F12D1613193268A600E655D0 /* SecondViewController.m in Sources */,
 				F12D160A193268A600E655D0 /* AppDelegate.m in Sources */,
 				F19018221933FF2400193A5D /* LogInViewController.m in Sources */,
 				F12AEAB9193587630081ACD5 /* SignUpViewController2.m in Sources */,
+				F12AEABC1936B6BD0081ACD5 /* AskViewController.m in Sources */,
 				F12D1606193268A600E655D0 /* main.m in Sources */,
 				F12D163319327E1900E655D0 /* ProfileViewController.m in Sources */,
+				F12AEABF1936BD950081ACD5 /* AnswerViewController.m in Sources */,
 				F19018251933FF2F00193A5D /* SignUpViewController1.m in Sources */,
 				F12D16361932825900E655D0 /* EditViewController.m in Sources */,
 				F19018281934208700193A5D /* HomeViewController.m in Sources */,
+				F12AEAC21936BF0C0081ACD5 /* MyQsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
