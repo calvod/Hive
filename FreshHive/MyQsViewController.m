@@ -14,7 +14,7 @@
 
 @implementation MyQsViewController {
     
-    NSArray *questions;
+    NSMutableArray *questions;
 }
 
 
@@ -31,8 +31,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    questions = [NSArray arrayWithObjects:@"cmon", @"please", @"fucking", @"wok", nil];
+    questions  = [NSMutableArray arrayWithObjects:@"hey", @"ho", @"let's", @"go", nil];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    Questions *noWay = [Questions getInstance];
+    [questions addObjectsFromArray:noWay.questions];
 }
 
 - (void)didReceiveMemoryWarning

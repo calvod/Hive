@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
+#import "Questions.h"
 
 @interface MyQsViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 

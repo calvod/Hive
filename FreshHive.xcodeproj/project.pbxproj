@@ -11,6 +11,7 @@
 		F12AEABC1936B6BD0081ACD5 /* AskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AEABB1936B6BD0081ACD5 /* AskViewController.m */; };
 		F12AEABF1936BD950081ACD5 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AEABE1936BD950081ACD5 /* AnswerViewController.m */; };
 		F12AEAC21936BF0C0081ACD5 /* MyQsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AEAC11936BF0C0081ACD5 /* MyQsViewController.m */; };
+		F12AEAC51936D6DC0081ACD5 /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = F12AEAC41936D6DC0081ACD5 /* Questions.m */; };
 		F12D15FA193268A600E655D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15F9193268A600E655D0 /* Foundation.framework */; };
 		F12D15FC193268A600E655D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15FB193268A600E655D0 /* CoreGraphics.framework */; };
 		F12D15FE193268A600E655D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12D15FD193268A600E655D0 /* UIKit.framework */; };
@@ -59,6 +60,8 @@
 		F12AEABE1936BD950081ACD5 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
 		F12AEAC01936BF0C0081ACD5 /* MyQsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQsViewController.h; sourceTree = "<group>"; };
 		F12AEAC11936BF0C0081ACD5 /* MyQsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQsViewController.m; sourceTree = "<group>"; };
+		F12AEAC31936D6DC0081ACD5 /* Questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Questions.h; sourceTree = "<group>"; };
+		F12AEAC41936D6DC0081ACD5 /* Questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Questions.m; sourceTree = "<group>"; };
 		F12D15F6193268A600E655D0 /* FreshHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshHive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12D15F9193268A600E655D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F12D15FB193268A600E655D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -178,6 +181,8 @@
 			children = (
 				F12D1608193268A600E655D0 /* AppDelegate.h */,
 				F12D1609193268A600E655D0 /* AppDelegate.m */,
+				F12AEAC31936D6DC0081ACD5 /* Questions.h */,
+				F12AEAC41936D6DC0081ACD5 /* Questions.m */,
 				F12D160B193268A600E655D0 /* Main.storyboard */,
 				F19018261934208700193A5D /* HomeViewController.h */,
 				F19018271934208700193A5D /* HomeViewController.m */,
@@ -330,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F12D160A193268A600E655D0 /* AppDelegate.m in Sources */,
+				F12AEAC51936D6DC0081ACD5 /* Questions.m in Sources */,
 				F19018221933FF2400193A5D /* LogInViewController.m in Sources */,
 				F12AEAB9193587630081ACD5 /* SignUpViewController2.m in Sources */,
 				F12AEABC1936B6BD0081ACD5 /* AskViewController.m in Sources */,

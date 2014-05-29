@@ -33,6 +33,12 @@
         [self performSegueWithIdentifier:@"profileViewFromHomeView" sender:self];
     }
     
+    Questions *questions = [Questions getInstance];
+    questions.current = 0;
+    questions.count = 0;
+    [questions.questions init];
+    [questions.answers init];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -45,6 +45,9 @@
     //    [PFPush sendPushMessageToQueryInBackground:pushQuery
     //                                   withMessage:self.question.text];
     
+    
+    
+    
     // Send a notification to all devices subscribed to the previoustitle and currenttitle channel.
     PFUser *user = [PFUser currentUser];
     NSArray *channels = [NSArray arrayWithObjects:[user objectForKey:@"currenttitle"], [user objectForKey:@"previoustitle"], nil];
@@ -78,7 +81,6 @@
             
         }
         
-        //here I would call the addObject: function of the NSMutableArray to add the string and then s
     }];
     
     
@@ -86,6 +88,7 @@
     //add to user's array of questions
     [user addObject:self.question.text forKey:@"questions"];
     
+    /*
     //add to master list of questions
     [[PFInstallation currentInstallation] addObject:self.question.text forKey:@"questions"];
     [user setObject:self.question.text forKey:@"myquestion"];
@@ -93,10 +96,8 @@
     [[PFInstallation currentInstallation] setObject:[user objectForKey:@"fullname"] forKey:@"asker"];
     [[PFInstallation currentInstallation] setObject:[user objectForKey:@"currenttitle"] forKey:@"askerCurrentTitle"];
     [[PFInstallation currentInstallation] saveInBackground];
+   */
     
-    
-    
-    NSLog(@"Question shot");
     [self performSegueWithIdentifier:@"myQsFromAsk" sender:self];
 }
 
